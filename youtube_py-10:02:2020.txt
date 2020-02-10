@@ -1,0 +1,600 @@
+Last login: Sun Feb  9 23:31:20 on ttys001
+harshitruwali@Harshits-MacBook-Pro ~ % source pyhton_env/bin/activate
+source: no such file or directory: pyhton_env/bin/activate
+harshitruwali@Harshits-MacBook-Pro ~ % source python_env/bin/activate
+(python_env) harshitruwali@Harshits-MacBook-Pro ~ % cd desktop
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+[youtube] zN6MKPqHrmw: Downloading webpage
+[youtube] zN6MKPqHrmw: Downloading video info webpage
+[download] Destination: LYRICAL - Bezubaan Kab Se _ Street Dancer 3D _ Varun D, Shraddha K _ Siddharth B, Jubin N-zN6MKPqHrmw.mp4
+[download] 100% of 25.45MiB in 00:11
+Traceback (most recent call last):
+  File "youtube.py", line 43, in <module>
+    subprocess.Popen(path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Users/harshitruwali/Movies/'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search termj   
+[youtube] 4NXbiGTmbrc: Downloading webpage
+j[youtube] 4NXbiGTmbrc: Downloading video info webpage
+[download] Destination: J'adore - The film-4NXbiGTmbrc.mp4
+[download] 100% of 4.51MiB in 00:03
+Traceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    subprocess.Popen(path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Users/harshitruwali/Movies/'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search termjohm fish
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download] 100% of 35.80MiB in 00:34
+Traceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    subprocess.Popen(path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Users/harshitruwali/Movies/'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip3 install pytube
+Collecting pytube
+  Downloading pytube-9.5.3-py3-none-any.whl (32 kB)
+Installing collected packages: pytube
+Successfully installed pytube-9.5.3
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py 
+enter the search termjohn fish
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+Traceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    subprocess.Popen(path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Users/harshitruwali/Movies/'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search termjog 
+[youtube] OAXy73gi_AQ: Downloading webpage
+[youtube] OAXy73gi_AQ: Downloading video info webpage
+[youtube] OAXy73gi_AQ: Downloading MPD manifest
+[download] Destination: Aashiqi Ka Rog ban jave jog_ Diler Kharkiya, Anjali Raghav _ New Haryanvi Songs Haryanavi 2019-OAXy73gi_AQ.mp4
+[download] 100% of 13.05MiB in 00:05
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] OAXy73gi_AQ: Downloading webpage
+[youtube] OAXy73gi_AQ: Downloading video info webpage
+[youtube] OAXy73gi_AQ: Downloading MPD manifest
+[download] Aashiqi Ka Rog ban jave jog_ Diler Kharkiya, Anjali Raghav _ New Haryanvi Songs Haryanavi 2019-OAXy73gi_AQ.mp4 has already been downloaded
+[download] 100% of 13.05MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] OAXy73gi_AQ: Downloading webpage
+[youtube] OAXy73gi_AQ: Downloading video info webpage
+[youtube] OAXy73gi_AQ: Downloading MPD manifest
+[download] Aashiqi Ka Rog ban jave jog_ Diler Kharkiya, Anjali Raghav _ New Haryanvi Songs Haryanavi 2019-OAXy73gi_AQ.mp4 has already been downloaded
+[download] 100% of 13.05MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] OAXy73gi_AQ: Downloading webpage
+[youtube] OAXy73gi_AQ: Downloading video info webpage
+[youtube] OAXy73gi_AQ: Downloading MPD manifest
+[download] Aashiqi Ka Rog ban jave jog_ Diler Kharkiya, Anjali Raghav _ New Haryanvi Songs Haryanavi 2019-OAXy73gi_AQ.mp4 has already been downloaded
+[download] 100% of 13.05MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+john fish
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download] 100% of 35.80MiB in 00:15
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip3 install urllib
+ERROR: Could not find a version that satisfies the requirement urllib (from versions: none)
+ERROR: No matching distribution found for urllib
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip3 install urllib3
+Collecting urllib3
+  Downloading urllib3-1.25.8-py2.py3-none-any.whl (125 kB)
+     |████████████████████████████████| 125 kB 546 kB/s 
+Installing collected packages: urllib3
+Successfully installed urllib3-1.25.8
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip3 install urllib3
+Requirement already satisfied: urllib3 in /Users/harshitruwali/python_env/lib/python3.8/site-packages (1.25.8)
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py  
+enter the search term:
+john fish
+Traceback (most recent call last):
+  File "youtube.py", line 32, in <module>
+    response = urllib2.urlopen(url)
+NameError: name 'urllib2' is not defined
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+john fish
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download] 100% of 35.80MiB in 00:13
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip3 install PyQtWebEngine
+Collecting PyQtWebEngine
+  Downloading PyQtWebEngine-5.14.0-5.14.1-cp35.cp36.cp37.cp38-abi3-macosx_10_6_intel.whl (75.9 MB)
+     |████████████████████████████████| 75.9 MB 444 kB/s 
+Collecting PyQt5>=5.14
+  Downloading PyQt5-5.14.1-5.14.1-cp35.cp36.cp37.cp38-abi3-macosx_10_6_intel.whl (43.1 MB)
+     |████████████████████████████████| 43.1 MB 397 kB/s 
+Collecting PyQt5-sip<13,>=12.7
+  Downloading PyQt5_sip-12.7.1-cp38-cp38-macosx_10_9_x86_64.whl (63 kB)
+     |████████████████████████████████| 63 kB 234 kB/s 
+Installing collected packages: PyQt5-sip, PyQt5, PyQtWebEngine
+Successfully installed PyQt5-5.14.1 PyQt5-sip-12.7.1 PyQtWebEngine-5.14.0
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip3 install PyQt5
+Requirement already satisfied: PyQt5 in /Users/harshitruwali/python_env/lib/python3.8/site-packages (5.14.1)
+Requirement already satisfied: PyQt5-sip<13,>=12.7 in /Users/harshitruwali/python_env/lib/python3.8/site-packages (from PyQt5) (12.7.1)
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py        
+enter the search term:
+john fish
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download] 100% of 35.80MiB in 00:13
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube_1.py
+js: HTML Imports is deprecated and will be removed in M80, around February 2020. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 and https://developers.google.com/web/updates/2019/07/web-components-time-to-upgrade for more details.
+js: Mixed Content: The page at 'https://www.youtube.com/playlist?list=PLHz_lZ_PsROpW7s451Ydyb3XeBoicFGIY' was loaded over HTTPS, but requested an insecure script 'chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js'. This request has been blocked; the content must be served over HTTPS.
+js: Refused to display 'https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&hl=en&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Den%26feature%3Dpassive%26action_handle_signin%3Dtrue%26next%3D%252Fsignin_passive' in a frame because it set 'X-Frame-Options' to 'deny'.
+js: Mixed Content: The page at 'https://www.youtube.com/playlist?list=PLHz_lZ_PsROpW7s451Ydyb3XeBoicFGIY' was loaded over HTTPS, but requested an insecure script 'chrome-extension://enhhojjnijigcajfphajepfemndkmdlo/cast_sender.js'. This request has been blocked; the content must be served over HTTPS.
+Load finished
+Traceback (most recent call last):
+  File "youtube_1.py", line 55, in <module>
+    vid_src = link['href'] 
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/bs4/element.py", line 1321, in __getitem__
+    return self.attrs[key]
+KeyError: 'href'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py  
+enter the search term:
+john fish harvard
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download] 100% of 35.80MiB in 00:12
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+john fish
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download] 100% of 35.80MiB in 00:12
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+harvard
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4 has already been downloaded
+[download] 100% of 35.80MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] APw9UE2lsqU: Downloading webpage
+[youtube] APw9UE2lsqU: Downloading video info webpage
+[download] Destination: Speaking With One of the Greatest Lawyers Ever-APw9UE2lsqU.mp4
+[download]  16.8% of 35.80MiB at 161.17KiB/s ETA 03:09^CTraceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl.download([url])
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 2017, in download
+    res = self.extract_info(
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 862, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1643, in process_video_result
+    self.process_info(new_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1925, in process_info
+    success = dl(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1864, in dl
+    return fd.download(name, info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 342, in real_download
+    return download()
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 230, in download
+    data_block = ctx.data.read(block_size if not is_test else min(block_size, data_len - byte_counter))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 454, in read
+    n = self.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 498, in readinto
+    n = self.fp.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+harvard
+[youtube] _j1RZTYJzQU: Downloading webpage
+[youtube] _j1RZTYJzQU: Downloading video info webpage
+[download] Destination: Human Organ-on-Chips-_j1RZTYJzQU.mp4
+[download]  12.4% of 14.02MiB at 16.65KiB/s ETA 12:35ç^CTraceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl.download([url])
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 2017, in download
+    res = self.extract_info(
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 862, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1643, in process_video_result
+    self.process_info(new_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1925, in process_info
+    success = dl(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1864, in dl
+    return fd.download(name, info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 342, in real_download
+    return download()
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 230, in download
+    data_block = ctx.data.read(block_size if not is_test else min(block_size, data_len - byte_counter))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 454, in read
+    n = self.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 498, in readinto
+    n = self.fp.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+harcard
+[youtube] _j1RZTYJzQU: Downloading webpage
+[youtube] _j1RZTYJzQU: Downloading video info webpage
+[download] Resuming download at byte 1827410
+[download] Destination: Human Organ-on-Chips-_j1RZTYJzQU.mp4
+[download] 100% of 14.02MiB in 00:04
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] _j1RZTYJzQU: Downloading webpage
+[youtube] _j1RZTYJzQU: Downloading video info webpage
+[download] Human Organ-on-Chips-_j1RZTYJzQU.mp4 has already been downloaded
+[download] 100% of 14.02MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] _j1RZTYJzQU: Downloading webpage
+[youtube] _j1RZTYJzQU: Downloading video info webpage
+[download] Human Organ-on-Chips-_j1RZTYJzQU.mp4 has already been downloaded
+[download] 100% of 14.02MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] _j1RZTYJzQU: Downloading webpage
+[youtube] _j1RZTYJzQU: Downloading video info webpage
+[download] Human Organ-on-Chips-_j1RZTYJzQU.mp4 has already been downloaded
+[download] 100% of 14.02MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+john fiah
+Traceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl.download_all([url])
+AttributeError: 'YoutubeDL' object has no attribute 'download_all'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % sudo pip install --upgrade youtube_dl
+Password:
+WARNING: The directory '/Users/harshitruwali/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Requirement already up-to-date: youtube_dl in /Users/harshitruwali/python_env/lib/python3.8/site-packages (2020.1.24)
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % pip install --upgrade youtube_dl 
+Requirement already up-to-date: youtube_dl in /Users/harshitruwali/python_env/lib/python3.8/site-packages (2020.1.24)
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube_2.py                 
+  File "youtube_2.py", line 26
+    video.download()
+                   ^
+IndentationError: unindent does not match any outer indentation level
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube_2.py
+enter the search term:
+john fish
+Traceback (most recent call last):
+  File "youtube_2.py", line 13, in <module>
+    yt = YouTube(url)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/pytube/__main__.py", line 70, in __init__
+    self.video_id = extract.video_id(url)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/pytube/extract.py", line 71, in video_id
+    return regex_search(r'(?:v=|\/)([0-9A-Za-z_-]{11}).*', url, group=1)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/pytube/helpers.py", line 63, in regex_search
+    raise RegexMatchError(
+pytube.exceptions.RegexMatchError: regex pattern ((?:v=|\/)([0-9A-Za-z_-]{11}).*) had zero matches
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube_2.py
+enter the search term:
+john fish
+Traceback (most recent call last):
+  File "youtube_2.py", line 14, in <module>
+    yt = YouTube(url)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/pytube/__main__.py", line 70, in __init__
+    self.video_id = extract.video_id(url)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/pytube/extract.py", line 71, in video_id
+    return regex_search(r'(?:v=|\/)([0-9A-Za-z_-]{11}).*', url, group=1)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/pytube/helpers.py", line 63, in regex_search
+    raise RegexMatchError(
+pytube.exceptions.RegexMatchError: regex pattern ((?:v=|\/)([0-9A-Za-z_-]{11}).*) had zero matches
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py                   
+enter the search term:
+harry potter
+Traceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl.download_all([url])
+AttributeError: 'YoutubeDL' object has no attribute 'download_all'
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+harry potter
+[youtube] OuJ9khWfk8s: Downloading webpage
+[youtube] OuJ9khWfk8s: Downloading video info webpage
+ERROR: This video is unavailable.
+Traceback (most recent call last):
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 796, in extract_info
+    ie_result = ie.extract(url)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/extractor/common.py", line 530, in extract
+    ie_result = self._real_extract(url)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/extractor/youtube.py", line 2153, in _real_extract
+    raise ExtractorError(error_message, expected=True)
+youtube_dl.utils.ExtractorError: This video is unavailable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl.download([url])
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 2017, in download
+    res = self.extract_info(
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 819, in extract_info
+    self.report_error(compat_str(e), e.format_traceback())
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 624, in report_error
+    self.trouble(error_message, tb)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 594, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: This video is unavailable.
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+fifty shades
+[youtube:playlist] Downloading playlist PLBF_vHEQuMQlnBgFc3H_vu3U-YhSCOSpj - add --no-playlist to just download video _HWG4Y29BDM
+[youtube:playlist] PLBF_vHEQuMQlnBgFc3H_vu3U-YhSCOSpj: Downloading webpage
+[download] Downloading playlist: Fifty Shades  (2017) Full Movie
+[youtube:playlist] PLBF_vHEQuMQlnBgFc3H_vu3U-YhSCOSpj: Downloading page #1
+[youtube:playlist] PLBF_vHEQuMQlnBgFc3H_vu3U-YhSCOSpj: Downloading page #2
+[youtube:playlist] PLBF_vHEQuMQlnBgFc3H_vu3U-YhSCOSpj: Downloading page #3
+[youtube:playlist] PLBF_vHEQuMQlnBgFc3H_vu3U-YhSCOSpj: Downloading page #4
+[youtube:playlist] playlist Fifty Shades  (2017) Full Movie: Downloading 425 videos
+[download] Downloading video 1 of 425
+[youtube] _HWG4Y29BDM: Downloading webpage
+[youtube] _HWG4Y29BDM: Downloading video info webpage
+[download] Destination: Fifty Shades Freed Ending Scene (Ellie Goulding - Love Me Like You Do)-_HWG4Y29BDM.mp4
+[download] 100% of 13.86MiB in 00:28
+[download] Downloading video 2 of 425
+[youtube] qp-iEhpC79s: Downloading webpage
+[youtube] qp-iEhpC79s: Downloading video info webpage
+[download] Destination: Fifty Shades Darker release clip compilation (2017)-qp-iEhpC79s.mp4
+[download] 100% of 12.90MiB in 00:21
+[download] Downloading video 3 of 425
+[youtube] SfZWFDs0LxA: Downloading webpage
+[youtube] SfZWFDs0LxA: Downloading video info webpage
+[download] Destination: Fifty Shades Of Grey - Official Trailer (Universal Pictures) HD-SfZWFDs0LxA.mp4
+[download] 100% of 9.20MiB in 00:26
+[download] Downloading video 4 of 425
+[youtube] k4_-KXbN-CY: Downloading webpage
+[youtube] k4_-KXbN-CY: Downloading video info webpage
+çç[download] Destination: Fifty Shades of Grey Ana punished scene-k4_-KXbN-CY.mp4
+[download]   2.8% of 8.81MiB at 276.05KiB/s ETA 00:31^CTraceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl.download([url])
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 2017, in download
+    res = self.extract_info(
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1005, in process_ie_result
+    entry_result = self.process_ie_result(entry,
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 866, in process_ie_result
+    return self.extract_info(ie_result['url'],
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 862, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1643, in process_video_result
+    self.process_info(new_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1925, in process_info
+    success = dl(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1864, in dl
+    return fd.download(name, info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 342, in real_download
+    return download()
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 230, in download
+    data_block = ctx.data.read(block_size if not is_test else min(block_size, data_len - byte_counter))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 454, in read
+    n = self.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 498, in readinto
+    n = self.fp.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+ankit kumwr
+[youtube] BOgI9J62zuk: Downloading webpage
+[youtube] BOgI9J62zuk: Downloading video info webpage
+[youtube] BOgI9J62zuk: Downloading MPD manifest
+[download] Destination: GANGLIONIC BLOCKERS-BOgI9J62zuk.mp4
+[download] 100% of 113.14MiB in 02:52
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] BOgI9J62zuk: Downloading webpage
+[youtube] BOgI9J62zuk: Downloading video info webpage
+[youtube] BOgI9J62zuk: Downloading MPD manifest
+[download] GANGLIONIC BLOCKERS-BOgI9J62zuk.mp4 has already been downloaded
+[download] 100% of 113.14MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] BOgI9J62zuk: Downloading webpage
+[youtube] BOgI9J62zuk: Downloading video info webpage
+[youtube] BOgI9J62zuk: Downloading MPD manifest
+[download] GANGLIONIC BLOCKERS-BOgI9J62zuk.mp4 has already been downloaded
+[download] 100% of 113.14MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] BOgI9J62zuk: Downloading webpage
+[youtube] BOgI9J62zuk: Downloading video info webpage
+[youtube] BOgI9J62zuk: Downloading MPD manifest
+[download] GANGLIONIC BLOCKERS-BOgI9J62zuk.mp4 has already been downloaded
+[download] 100% of 113.14MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube] BOgI9J62zuk: Downloading webpage
+[youtube] BOgI9J62zuk: Downloading video info webpage
+[youtube] BOgI9J62zuk: Downloading MPD manifest
+[download] GANGLIONIC BLOCKERS-BOgI9J62zuk.mp4 has already been downloaded
+[download] 100% of 113.14MiB
+/bin/sh: /Users/harshitruwali/Movies/: is a directory
+[youtube:search_url] ankit kumwr: Downloading webpage
+[download] Downloading playlist: ankit kumwr
+[youtube:search_url] playlist ankit kumwr: Downloading 27 videos
+[download] Downloading video 1 of 27
+[youtube] BOgI9J62zuk: Downloading webpage
+[youtube] BOgI9J62zuk: Downloading video info webpage
+[youtube] BOgI9J62zuk: Downloading MPD manifest
+[download] GANGLIONIC BLOCKERS-BOgI9J62zuk.mp4 has already been downloaded
+[download] 100% of 113.14MiB
+[download] Downloading video 2 of 27
+[youtube] xhtmRYSmH2I: Downloading webpage
+[youtube] xhtmRYSmH2I: Downloading video info webpage
+[download] Destination: CNS- Epilepsy sample-xhtmRYSmH2I.mp4
+[download] 100% of 48.79MiB in 00:16
+[download] Downloading video 3 of 27
+[youtube] -CuOIrRFea0: Downloading webpage
+[youtube] -CuOIrRFea0: Downloading video info webpage
+[youtube] -CuOIrRFea0: Downloading MPD manifest
+[download] Destination: Anti-retro viral therapy sample--CuOIrRFea0.mp4
+[download] 100% of 42.74MiB in 00:23
+[download] Downloading video 4 of 27
+[youtube] xOi8xZBp6o8: Downloading webpage
+[youtube] xOi8xZBp6o8: Downloading video info webpage
+[download] Destination: Anti microbials Cell Wall Synthesis Inhibitors sample-xOi8xZBp6o8.mp4
+[download] 100% of 58.33MiB in 00:38
+[download] Downloading video 5 of 27
+[youtube] 84i090meWvE: Downloading webpage
+[youtube] 84i090meWvE: Downloading video info webpage
+[download] Destination: Antimicrobial Resistance by Dr  Ankit Kumar-84i090meWvE.mp4
+[download] 100% of 86.32MiB in 00:27
+[download] Downloading video 6 of 27
+[youtube] klgJoFWC9NE: Downloading webpage
+[youtube] klgJoFWC9NE: Downloading video info webpage
+[youtube] klgJoFWC9NE: Downloading MPD manifest
+[download] Destination: CVS  - Renin Angiotensin Aldosterone System-klgJoFWC9NE.mp4
+[download]  28.4% of 231.66MiB at  1.59MiB/s ETA 01:44^CTraceback (most recent call last):
+  File "youtube.py", line 45, in <module>
+    ydl_opts = {}
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 2017, in download
+    res = self.extract_info(
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1005, in process_ie_result
+    entry_result = self.process_ie_result(entry,
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 866, in process_ie_result
+    return self.extract_info(ie_result['url'],
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 807, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 862, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1643, in process_video_result
+    self.process_info(new_info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1925, in process_info
+    success = dl(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/YoutubeDL.py", line 1864, in dl
+    return fd.download(name, info)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 342, in real_download
+    return download()
+  File "/Users/harshitruwali/python_env/lib/python3.8/site-packages/youtube_dl/downloader/http.py", line 230, in download
+    data_block = ctx.data.read(block_size if not is_test else min(block_size, data_len - byte_counter))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 454, in read
+    n = self.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/http/client.py", line 498, in readinto
+    n = self.fp.readinto(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+johnfish
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+harry
+creating a new directory
+created a new directory named  harry
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % python3 youtube.py
+enter the search term:
+india 
+creating a new directory
+created a new directory named  india
+(python_env) harshitruwali@Harshits-MacBook-Pro desktop % 
